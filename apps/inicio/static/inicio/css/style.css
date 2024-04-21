@@ -1,0 +1,227 @@
+.botoes-acao-index {
+    margin: 20px 0;
+  }
+  .inicio {
+    padding: 40px 0;
+  }
+  .estudante {
+    width: 500px;
+    height: 420px;
+  }
+  
+  .login {
+    padding: 40px;
+  }
+  .topico {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .contato {
+    margin: 32px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+  }
+  .cartao {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 20px 0px;
+  }
+  
+  .informacoes {
+    background-color: #ececec;
+    padding: 40px 0px;
+  }
+  
+  .container_informacoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    opacity: 0.9;
+  }
+  
+  .campus{
+    margin: 20px 0;
+  }
+  .cartao-curso{
+    margin: 12px 0;
+  }
+  .lista-curso-nucleos{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: disc;
+    /* list-style: inside; */
+  }
+  .cursos{
+    font-size: 15px;
+    color: #252525;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+  }
+  .cartao-texto {
+    color: #252525;
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+  }
+  
+  .card:hover {
+    opacity: 2;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .recuperar-senha {
+    color: lightblue;
+    padding: 4px 0;
+    margin: 4px 0;
+  }
+  
+  .localizacao {
+    padding: 40px 0;
+  }
+  
+  .localizacao-imagem {
+    margin-top: 20px;
+    width: 270px;
+    height: 200px;
+  }
+  
+  .mapa {
+    filter: grayscale(1) saturate(0);
+    border-radius: 8px;
+  }
+  
+  
+  .porta-ce {
+    display: inline-block;
+    width: 280px;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .sessao {
+    margin: 20px 0;
+  }
+  
+  .link-documentos {
+    padding: 8px;
+    margin: 4px;
+    color: #1d664d;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  .link-documentos:hover {
+    color: #45a951;
+  }
+  
+  .outros-sites {
+    margin-top: 20px;
+  }
+  
+  .logo-ufpa-cursos{
+    width: 125px;
+  }
+  
+  /* CSS media query dentro de um stylesheet */
+  /* @media only screen and (max-width: 1339px) and (min-width: 1200px) {
+    .container {
+      width: 1000px;
+    }
+  } */
+  /* ERRO */
+  .mensagem {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  .error-login {
+    color: #fa9897;
+    font-size: 15px;
+    margin-left: 4px;
+  }
+  .link-error {
+    color: #f46e6e;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .error-login {
+    color: #88c7ff;
+    font-size: 15px;
+    margin-left: 4px;
+  }
+  .link-error {
+    color: #88c7ff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 576px) {
+    .localizacao-imagem {
+      display: none;
+    }
+    .mapa {
+      width: 250px;
+      height: 190px;
+    }
+    .estudante {
+      display: none;
+    }
+    .porta-ce {
+      margin-right: 0;
+      margin-bottom: 8px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .localizacao-imagem {
+      width: 200px;
+      display: inline-block;
+    }
+    .mapa {
+      width: 250px;
+      height: 190px;
+    }
+  }
+  
+  @media (max-width: 992px) and (min-width: 576px) {
+    .estudante {
+      display: inline-block;
+      width: 350px;
+      height: 225px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .localizacao-imagem {
+      width: 350px;
+      height: 230px;
+    }
+    .mapa {
+      width: 380px;
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1400px) {
+  }
